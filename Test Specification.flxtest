@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0FCBE48F479D70199D903088EC7986E6DDCA3CF58F9AA96E9784CD6289F316C1A4A152D073BC320052B85C664097C8DF73B85F483996ED41E0E75631556CA736" Timestamp="1DBDB21D60DD2C6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.16.0.49765" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="9.14.0.49152" Version="9.14.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.16.0.49765" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.16.0.49765" Name="FlexLogger" Version="25.3.0.0" />
+	</SourceModelFeatureSet>
+	<TestSpecification xmlns="http://www.ni.com/Lumberjack.Core">
+		<EventConfigurationModel Id="b4d2282cb39948f6abcb04297807863e">
+			<ProcessingElementModelOwner Id="193093b57b364845b9a9b1406e4e7903" />
+		</EventConfigurationModel>
+	</TestSpecification>
+</SourceFile>

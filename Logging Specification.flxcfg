@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FB4F8E4BD25413AAB5F24E16FC09C394780A077C6E0282CA37556C998A41C1CC6FB4CDB3AFA4CD1505790706C5062C3968E6FA9AA0BE3406F15A17324BAA9793" Timestamp="1DBE615433BBDF2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.16.0.49765" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="9.14.0.49152" Version="9.14.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.16.0.49765" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.16.0.49765" Name="FlexLogger" Version="25.3.0.0" />
+	</SourceModelFeatureSet>
+	<LoggingSpecification xmlns="http://www.ni.com/Lumberjack.Core">
+		<LoggingConfigurationModel Id="88dceb327b99411f8926bbb911016db2">
+			<ProcessingElementModelOwner Id="d4f1909663f4baeacf8045f9f09697d">
+				<TriggeredLoggingProvider Id="5f0113eef380485e8c90d99a3ddf5461" IsRestartProjectChecked="True" IsTriggeringEnabled="True" ModelTypeId="[string]CBA104E4-2D21-4AC7-915B-D7DCC1243DCE" StartChannelDigitalValueChangeType="ValueGoesLow" StartChannelLeadingTime="3" StartTime="2025-06-09T15:13:29.47787479999999999996825039705328208583523519337177276611328125+01:00" StopChannelThresholdValue="1" StopChannelValueChangeType="RiseAboveValue" StopConditionType="ChannelValueChange" StopSelectedChannel="Total Sequence Cycles" />
+				<TdmsLoggingProvider DataReductionStrategy="Decimate" Id="81a2b65213d04ef6998a61b9ddf0b660" LogFileBackupPath="&quot;C:\\Users\\Steve\\Documents\\FlexLogger\\data\\backups&quot;" LogFileBasePath="&quot;C:\\Users\\Steve\\Documents\\FlexLogger\\data&quot;" ModelTypeId="[string]59163356-411F-436B-A6B6-82FB1EFB19E1">
+					<UserDefinedMetadata Id="9a4fa018ee254179bc4e4c478a965ab0">
+						<UserDefinedMetadataItem DataType="String" Id="23c4104539834004891bc12a368c4bc1" Name="Operator">
+							<p.Value>Steve</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="fdc518ccfc81427ba7086791103ee8c4" Name="DUT">
+							<p.Value>""</p.Value>
+						</UserDefinedMetadataItem>
+					</UserDefinedMetadata>
+				</TdmsLoggingProvider>
+			</ProcessingElementModelOwner>
+		</LoggingConfigurationModel>
+	</LoggingSpecification>
+</SourceFile>
